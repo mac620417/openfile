@@ -1,0 +1,6 @@
+#!/bin/bash
+sudo /usr/bin/nohup /bin/bash /usr/local/bin/listenComSec.sh >/dev/null 2>&1 &
+#sudo 呼叫nohup，呼叫環境程式bash，執行指令 /suer.....Sec.sh 
+#dev/null 2>&1 & 是指將錯誤2放到&1，而1是定義dev=null(錯誤的裝置放到一個沒有裝置的指定), 而最後的&是不顯示
+
+
