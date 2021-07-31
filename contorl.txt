@@ -1,0 +1,5 @@
+Package:  listenCom
+Version: 1.0
+Architecture: armor
+Maintainer: michael.chen<mac620417@gmial.com>
+Description: Pi3B+ comport listen 20210731
