@@ -1,5 +1,5 @@
 Package: listenCom
 Version: 1.0
 Architecture: armhf
-Maintainer: michael.chen<mac620417@gmial.com>
+Maintainer: michael.chen<mac620417@gmail.com>
 Description: Pi3B+ comport listen 20210731
