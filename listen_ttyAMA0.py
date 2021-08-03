@@ -3,7 +3,7 @@ import datetime #載入時間函數
 import configparser #載入config檔函數
 
 config = configparser.ConfigParser() #啟動comfigparser
-config.read('/home/pi/Desktop/config.ini') #將config由指定的ini檔讀進來
+config.read('/etc/listenComCfg/config.ini') #將config由指定的ini檔讀進來
 
 device = config['dev']['device']  # 定義將config secsion中的device讀進來
 baudrate = config['dev']['buadrate']  # 定義將config secsion中的baudrate讀進來
